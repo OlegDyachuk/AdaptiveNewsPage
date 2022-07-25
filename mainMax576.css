@@ -1,0 +1,37 @@
+body{
+    width: 550px;
+}
+header img{
+    width: 150px;
+}
+.mainSection h2{
+    font-size: 1.2em;
+}
+.articleSection{
+    margin-top: 30px;
+    flex-direction: column;
+}
+.articleSection article{
+    width: 95%;
+    height: 200px;
+}
+.articleSection h2{
+    font-size: 1.3em;
+    width: 17%;
+    padding-left: 12px;
+    position: absolute;
+    left: 10%;
+    bottom: -68%;
+    width: 80%;
+}
+.articleSection article h3{
+    width: 100%;
+    text-align: center;
+    height: 40px;
+}
+.articleSection article p{
+    height: 30px;
+}
+.articleSection article:nth-of-type(2), .articleSection article:nth-of-type(3){
+    margin-top: 5px;
+}
